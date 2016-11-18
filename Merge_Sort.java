@@ -54,9 +54,8 @@ public class Merge_Sort {
                 temp[temp_index++] = list[first_index_counter++];
             else temp[temp_index++] = list[second_index_counter++];
         }
-
-		//Adds the contents of either half that did not break the above while loop into the temporary array.
-
+	    
+	//Adds the contents of either half that did not break the above while loop into the temporary array.
         while (first_index_counter < second_index && second_index_counter > end)
             temp[temp_index++] = list[first_index_counter++];
 
